@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Player</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="musicPlayer">
+    <h1>Music Player</h1>
+    <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+    <div id="controls">
+      <button id="backwardButton">Backward</button>
+      <button id="playButton">Play</button>
+      <button id="pauseButton">Pause</button>
+      <button id="stopButton">Stop</button>
+      <button id="forwardButton">Forward</button>
+    </div>
+    <div id="uploadContainer">
+      <input type="file" id="musicFileInput" multiple accept="audio/mpeg">
+    </div>
+    
+    <div id="lyricsContainer"></div>
+  </div>
+
+  <audio id="audioPlayer">
+    <source id="audioSource" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

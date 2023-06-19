@@ -1,0 +1,50 @@
+
+  #musicPlayer {
+    margin-top: 100px;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightgray;
+  }
+  
+  #progressContainer {
+    width: 300px;
+    height: 10px;
+    margin: 20px auto;
+    background-color: #ddd;
+  }
+  
+  #progressBar {
+    height: 100%;
+    background-color: rgb(221, 54, 17);
+    width: 0;
+    transition: width 0.3s ease;
+  }
+
+#lyricsContainer {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  /* ... Existing styles ... */
+
+  body { background-color: green; font-family: Arial, sans-serif; text-align: center; transition: background-color 0.5s ease; }
+  
+  
